@@ -22,18 +22,6 @@ This project is built as a static site focusing on performance, clean aesthetics
   - Organized sections for Programs, About Us, Legal Credentials, and Contact Info.
   - Custom animations and transitions for an improved user experience.
 
-## 🚀 Setup & Installation
-Because this is a static website, no complicated server setup or build step is required!
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ajaypalangi/JGM-Charitable-Trust.git
-   ```
-2. Navigate into the project folder:
-   ```bash
-   cd JGM-Charitable-Trust
-   ```
-3. Open `index.html` in any modern web browser to view the site locally.
 
 ## 👤 Key Members
 - **Yesu Kola** - Founder Chairman
