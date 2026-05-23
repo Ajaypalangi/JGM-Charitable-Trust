@@ -1,0 +1,12 @@
+# robots.txt – JGM Charitable Trust
+# https://jgm-charitable-trust.vercel.app/
+
+User-agent: *
+Allow: /
+
+# Disallow admin/temp files (none exist currently but good practice)
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://jgm-charitable-trust.vercel.app/sitemap.xml
