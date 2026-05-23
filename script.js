@@ -155,6 +155,27 @@ function handleContactForm(e) {
   setTimeout(() => { successEl.style.display = 'none'; }, 5000);
 }
 
+// ---- Copy UPI ID ----
+function copyUpiId() {
+  const upiId = document.getElementById('upiIdText').textContent;
+  const copiedMsg = document.getElementById('upiCopied');
+  navigator.clipboard.writeText(upiId).then(() => {
+    copiedMsg.style.display = 'flex';
+    setTimeout(() => { copiedMsg.style.display = 'none'; }, 2500);
+  }).catch(() => {
+    // Fallback for older browsers
+    const ta = document.createElement('textarea');
+    ta.value = upiId;
+    ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    copiedMsg.style.display = 'flex';
+    setTimeout(() => { copiedMsg.style.display = 'none'; }, 2500);
+  });
+}
+
 // ==== LIGHTBOX FUNCTIONALITY ====
 document.addEventListener('DOMContentLoaded', function () {
   const lightbox = document.getElementById('lightbox');

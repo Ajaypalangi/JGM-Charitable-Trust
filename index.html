@@ -58,6 +58,7 @@
         <li><a href="#members" class="nav-link">Members</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
         <li><a href="#donate" class="nav-link donate-btn">Donate Now</a></li>
+        <li><a href="#upi-donate" class="nav-link upi-nav-btn"><i class="fas fa-qrcode"></i> UPI Pay</a></li>
       </ul>
     </nav>
   </header>
@@ -354,6 +355,11 @@
             <p><strong>Contact:</strong> +91 9866572353</p>
             <p><strong>Email:</strong> <a href="mailto:jgm122023@gmail.com"
                 style="color: var(--primary);">jgm122023@gmail.com</a></p>
+            <div style="margin-top: 20px;">
+              <a href="https://maps.app.goo.gl/jcDuANYbbe22Qo9W7" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; display: inline-block;">
+                <i class="fas fa-map-marker-alt"></i> View on Map
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -578,6 +584,129 @@
           </div>
         </div>
 
+
+        <!-- Member Card: Nalla Abraham -->
+        <div class="member-card reveal">
+          <div class="member-photo-wrap">
+            <img src="images/nalla-abraham.jpg" alt="Nalla Abraham – Board Member, JGM Charitable Trust"
+              class="member-photo" />
+            <div class="member-role-badge member-role-member"><i class="fas fa-user-shield"></i> Board Member</div>
+          </div>
+          <div class="member-info">
+            <h3 class="member-name">Nalla Abraham</h3>
+            <p class="member-designation member-designation-member">Board Member</p>
+            <p class="member-desc">A seasoned professional with over 5 years of experience, Nalla Abraham serves as a
+              Board Member of JGM Charitable Trust, contributing strategic guidance and supporting the trust's mission to
+              uplift underprivileged communities across Andhra Pradesh.</p>
+            <div class="member-tags">
+              <span><i class="fas fa-user-shield"></i> Board Member</span>
+              <span><i class="fas fa-briefcase"></i> 5+ Years Experience</span>
+              <span><i class="fas fa-map-marker-alt"></i> Andhra Pradesh</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member Card: Narala Sowmya -->
+        <div class="member-card reveal">
+          <div class="member-photo-wrap">
+            <img src="images/narala-sowmya.jpg" alt="Narala Sowmya – Board Member, JGM Charitable Trust"
+              class="member-photo" />
+            <div class="member-role-badge member-role-member"><i class="fas fa-user-shield"></i> Board Member</div>
+          </div>
+          <div class="member-info">
+            <h3 class="member-name">Narala Sowmya</h3>
+            <p class="member-designation member-designation-member">Board Member</p>
+            <p class="member-desc">With over 5 years of dedicated experience, Narala Sowmya serves as a Board Member of
+              JGM Charitable Trust, playing a key role in shaping the trust's initiatives and driving meaningful impact
+              for underprivileged communities across Andhra Pradesh.</p>
+            <div class="member-tags">
+              <span><i class="fas fa-user-shield"></i> Board Member</span>
+              <span><i class="fas fa-briefcase"></i> 5+ Years Experience</span>
+              <span><i class="fas fa-map-marker-alt"></i> Andhra Pradesh</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== UPI DONATE SECTION ===== -->
+  <section id="upi-donate" class="upi-donate-section section" style="scroll-margin-top: 80px;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-qrcode"></i> Instant Giving</span>
+        <h2 class="section-title">Donate via UPI</h2>
+        <p class="section-subtitle">Scan the QR code below with any UPI app — PhonePe, Google Pay, Paytm — and make your contribution in seconds</p>
+      </div>
+      <div class="upi-donate-grid">
+        <!-- QR Card -->
+        <div class="upi-qr-card reveal">
+          <div class="upi-qr-glow"></div>
+          <div class="upi-qr-badge"><i class="fas fa-lock"></i> 100% Secure Payment</div>
+          <div class="upi-qr-img-wrap">
+            <div class="upi-qr-inner">
+              <img
+                src="images/upi-qr.jpg"
+                alt="JGM Charitable Trust UPI QR Code – Scan to Donate"
+                class="upi-qr-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="upi-qr-placeholder" style="display:none;width:220px;height:220px;background:rgba(255,255,255,0.1);border-radius:16px;border:2px dashed rgba(255,255,255,0.3);align-items:center;justify-content:center;flex-direction:column;gap:12px;color:rgba(255,255,255,0.6);font-size:0.82rem;text-align:center;padding:1rem;">
+                <i class="fas fa-qrcode" style="font-size:3.5rem;color:rgba(255,255,255,0.4);"></i>
+                <span>UPI QR Code<br><small style="opacity:0.7;">Pos.11412035@indus</small></span>
+              </div>
+              <div class="upi-qr-scan-ring"></div>
+            </div>
+          </div>
+          <div class="upi-id-box">
+            <span class="upi-id-label"><i class="fas fa-mobile-alt"></i> UPI ID</span>
+            <span class="upi-id-value" id="upiIdText">Pos.11412035@indus</span>
+            <button class="upi-copy-btn" onclick="copyUpiId()" title="Copy UPI ID"><i class="fas fa-copy"></i></button>
+          </div>
+          <div id="upiCopied" class="upi-copied-msg" style="display:none;"><i class="fas fa-check-circle"></i> Copied!</div>
+        </div>
+        <!-- Steps Card -->
+        <div class="upi-steps-card reveal">
+          <h3 class="upi-steps-title"><i class="fas fa-list-ol"></i> How to Donate</h3>
+          <div class="upi-step">
+            <div class="upi-step-num">01</div>
+            <div class="upi-step-text">
+              <strong>Open Any UPI App</strong>
+              <span>PhonePe, Google Pay, Paytm, BHIM, or your bank's app</span>
+            </div>
+          </div>
+          <div class="upi-step">
+            <div class="upi-step-num">02</div>
+            <div class="upi-step-text">
+              <strong>Scan QR Code</strong>
+              <span>Point your camera at the QR code shown on the left</span>
+            </div>
+          </div>
+          <div class="upi-step">
+            <div class="upi-step-num">03</div>
+            <div class="upi-step-text">
+              <strong>Enter Amount</strong>
+              <span>Type any amount you wish to donate — every rupee counts!</span>
+            </div>
+          </div>
+          <div class="upi-step">
+            <div class="upi-step-num">04</div>
+            <div class="upi-step-text">
+              <strong>Confirm &amp; Pay</strong>
+              <span>Authorise using your UPI PIN and the donation is complete</span>
+            </div>
+          </div>
+          <div class="upi-apps-row">
+            <span class="upi-app-chip"><i class="fas fa-mobile-alt"></i> PhonePe</span>
+            <span class="upi-app-chip"><i class="fab fa-google"></i> Google Pay</span>
+            <span class="upi-app-chip"><i class="fas fa-wallet"></i> Paytm</span>
+            <span class="upi-app-chip"><i class="fas fa-university"></i> BHIM</span>
+          </div>
+          <div class="upi-tax-note">
+            <i class="fas fa-certificate"></i>
+            <span>All donations are eligible for <strong>80G Tax Deduction</strong>. Official receipt issued on request.</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -653,6 +782,9 @@
               <h4>Old Age &amp; Orphan Home</h4>
               <p>H.No: 1-4-13, Kandiguda, Near Sai Baba Temple,<br />Sainikpuri, Tirumalagiri,
                 Kapra,<br />Medchal-Malkajgiri</p>
+              <a href="https://maps.app.goo.gl/jcDuANYbbe22Qo9W7" target="_blank" style="color: var(--primary); font-weight: 500; font-size: 0.9rem; margin-top: 5px; display: inline-block;">
+                <i class="fas fa-map-marker-alt"></i> View on Google Maps
+              </a>
             </div>
           </div>
           <div class="contact-item">
@@ -728,6 +860,7 @@
             <li><a href="#credentials">Credentials</a></li>
             <li><a href="#members">Members</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#upi-donate"><i class="fas fa-qrcode" style="font-size:0.75rem;"></i> UPI Donate</a></li>
             <li><a href="#donate">Donate</a></li>
           </ul>
         </div>
@@ -747,7 +880,7 @@
           <p><i class="fas fa-phone"></i> <a href="tel:+919866572353">+91 9866572353</a> / <a
               href="tel:+916302416456">+91 6302416456</a></p>
           <p><i class="fas fa-home"></i> <b>Care Home:</b> 1-4-13, Kandiguda, Near Sai Baba Temple, Sainikpuri,
-            Tirumalagiri, Kapra, Medchal-Malkajgiri</p>
+            Tirumalagiri, Kapra, Medchal-Malkajgiri <br/> <a href="https://maps.app.goo.gl/jcDuANYbbe22Qo9W7" target="_blank" style="color: var(--primary); font-size: 0.85rem;"><i class="fas fa-map-marker-alt"></i> View on Map</a></p>
           <p><i class="fas fa-map-marker-alt"></i> <b>Regd Office:</b> 4-81, Tadivaripalle Vill, Tharlupadu Mdl,
             Prakasam Dist – 523334</p>
           <p><i class="fas fa-certificate"></i> Regd: 12/2023 | Reg: SEA/MED/ALO/MA/1290204/2026</p>
