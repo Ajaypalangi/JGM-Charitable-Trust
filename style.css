@@ -1220,7 +1220,8 @@ section#trust .trust-card a {
   /* Members */
   .members-grid { grid-template-columns: 1fr; }
   .member-card { max-width: 100%; }
-  .member-photo-wrap { height: 260px; }
+  .member-photo-wrap { height: 320px; }
+  .member-photo { object-position: center 20%; }
   .member-name { font-size: 1.4rem; }
 
   /* Donate */
@@ -1312,8 +1313,8 @@ section#trust .trust-card a {
 
   /* Members */
   .members-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-  .member-photo-wrap { height: 260px; }
-  .member-photo { object-position: center 10%; }
+  .member-photo-wrap { height: 300px; }
+  .member-photo { object-fit: cover; object-position: center 25%; }
   .member-info { padding: 1.4rem; }
   .member-name { font-size: 1.3rem; }
   .member-desc { font-size: 0.88rem; }
@@ -1352,7 +1353,8 @@ section#trust .trust-card a {
   .stats-container { grid-template-columns: 1fr 1fr; }
   .gallery-grid { grid-auto-rows: 180px; }
   .nav-logo { width: 36px; height: 36px; }
-  .member-photo-wrap { height: 200px; }
+  .member-photo-wrap { height: 260px; }
+  .member-photo { object-position: center 25%; }
 }
 
 /* ===== LIGHTBOX MODAL ===== */
