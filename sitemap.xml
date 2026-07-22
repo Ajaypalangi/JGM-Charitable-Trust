@@ -31,9 +31,17 @@
   <!-- Care Home Section -->
   <url>
     <loc>https://jgm-charitable-trust.vercel.app/#trust</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- G+4 Project Section -->
+  <url>
+    <loc>https://jgm-charitable-trust.vercel.app/#g4-project</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Gallery Section -->
